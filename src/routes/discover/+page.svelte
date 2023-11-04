@@ -2,8 +2,9 @@
 </script>
 
 <!-- <div class="max-w-6xl"> -->
-<div class="wrapper mx-5 rounded-md p-5 bg-gradient-to-t from-cyan-500 to-blue-700">
-	<h2>Hello There! Welcome to UCSC Career Catalysts Club. </h2>
+<div class="wrapper mx-5 rounded-md p-5 bg-gradient-to-t from-cyan-600 to-blue-700">
+	<h2 class='mb-3 text-base font-bold'>Who we are.</h2>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam esse nesciunt quaerat sunt nihil voluptates. Voluptatum distinctio ducimus sit nulla earum similique laborum maiores voluptates sequi libero, ullam necessitatibus modi quia? Beatae consequuntur saepe quos iste autem quidem et in ratione officia dolore perspiciatis maxime, expedita, dolorem itaque id dolor qui dolores tempore? Officia harum distinctio aliquid hic rerum dolor, modi ullam beatae inventore quod praesentium omnis amet ipsa, minima nam numquam earum atque! Voluptas consequatur assumenda eligendi eaque? A dolorum, labore laudantium quidem eligendi ratione! Magni magnam eligendi dolorem itaque, cum, sequi recusandae mollitia officiis quasi modi iure blanditiis.</p>
 	
 	<!-- <h2
 		class="text-3xl font-semibold tracking-tight transition-colors first:mt-0"

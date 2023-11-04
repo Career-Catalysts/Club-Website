@@ -1,7 +1,7 @@
 <script>
 	import { toggleMode, mode } from 'mode-watcher'
 	import { Button } from '$lib/components/ui/button'
-   import '../app.postcss'
+	import '../app.postcss'
 	// import { Sun, Moon, Instagram } from 'lucide-svelte'
 	import {
 		Sun,
@@ -11,21 +11,23 @@
 		GithubLogo,
 		CaretRight,
 		ArrowRight,
+		Calendar,
 	} from 'radix-icons-svelte'
 
 	let theme_mode = ''
 	mode.subscribe((m) => (theme_mode = m))
 </script>
 
-<header class="flex align-center justify-center mb-5">
+<header class="flex align-center justify-center p-6">
 	<nav class="flex justify-between items-center">
 		<!-- left section -->
 		<a href="/">
+			<!-- change logo dark/light mode -->
 			<img
 				src={theme_mode == 'dark' ? 'dark.svg' : 'light.svg'}
 				id="logo"
 				alt="Logo"
-				class="logs w-52 h-auto"
+				class="w-52 h-auto"
 			/>
 		</a>
 
@@ -33,7 +35,7 @@
 		<ul class="flex justify-evenly items-center font-medium space-x-7">
 			<li><a href="/discover">Discover</a></li>
 			<li><a href="/resources">Resources</a></li>
-         <li><a href="/pathways">Pathways</a></li>
+			<li><a href="/pathways">Pathways</a></li>
 			<!-- <li class='flex items-center'>
 				<a href="/contact">Contact</a>
 				<CaretRight class="h-[1.5rem] w-[1.5rem]"/>
@@ -41,19 +43,24 @@
 		</ul>
 
 		<!-- right section -->
-		<div class="rounded-md w-52 flex justify-evenly items-center">
+		<div class="rounded-md w-52 pl-2 flex justify-between items-center">
 			<a class="icon" href="https://www.instagram.com/careercatalystclub/">
 				<InstagramLogo
-					class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
+				class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
 				/>
 			</a>
 			<a class="icon" href="https://discord.gg/3UU4YQar">
 				<DiscordLogo
-					class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
+				class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
 				/>
 			</a>
 			<a class="icon" href="https://github.com">
 				<GithubLogo
+				class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
+				/>
+			</a>
+			<a class="icon" href="https://www.instagram.com/careercatalystclub/">
+				<Calendar
 					class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
 				/>
 			</a>
@@ -72,6 +79,6 @@
 
 <style>
 	nav {
-		width: clamp(900px, 100%, 1100px);
+		width: clamp(50rem, 100%, 68rem);
 	}
 </style>

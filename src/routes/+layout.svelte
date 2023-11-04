@@ -6,9 +6,9 @@
 
 <ModeWatcher />
 
-<main class='m-6'>
-	<Header />
+<Header />
 
+<main class='flex justify-center items-center text-l'>
 	<slot />
 
 	<!-- <Footer /> -->
