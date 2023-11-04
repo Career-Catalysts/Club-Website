@@ -34,9 +34,9 @@
 		<!-- middle section -->
 		<ul class="flex justify-evenly items-center font-medium space-x-7">
 			<li><a href="/discover">Discover</a></li>
-			<li><a href="/discover">Events</a></li>
+			<li><a href="/events">Events</a></li>
 			<li><a href="/resources">Resources</a></li>
-			<li><a href="/pathways">About Us</a></li>
+			<li><a href="/about_us">About Us</a></li>
 			<!-- <li class='flex items-center'>
 				<a href="/contact">Contact</a>
 				<CaretRight class="h-[1.5rem] w-[1.5rem]"/>
