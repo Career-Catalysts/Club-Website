@@ -34,8 +34,9 @@
 		<!-- middle section -->
 		<ul class="flex justify-evenly items-center font-medium space-x-7">
 			<li><a href="/discover">Discover</a></li>
+			<li><a href="/discover">Events</a></li>
 			<li><a href="/resources">Resources</a></li>
-			<li><a href="/pathways">Pathways</a></li>
+			<li><a href="/pathways">About Us</a></li>
 			<!-- <li class='flex items-center'>
 				<a href="/contact">Contact</a>
 				<CaretRight class="h-[1.5rem] w-[1.5rem]"/>
@@ -59,7 +60,7 @@
 				class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
 				/>
 			</a>
-			<a class="icon" href="https://www.instagram.com/careercatalystclub/">
+			<a class="icon" href="https://www.calendar.google.com">
 				<Calendar
 					class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
 				/>
