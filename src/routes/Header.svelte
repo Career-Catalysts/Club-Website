@@ -18,16 +18,16 @@
 	mode.subscribe((m) => (theme_mode = m))
 </script>
 
-<header class="flex align-center justify-center p-6">
+<header class="flex items-center justify-center p-6 border-green-500 box-border border-b-4 h-24">
 	<nav class="flex justify-between items-center">
 		<!-- left section -->
 		<a href="/">
 			<!-- change logo dark/light mode -->
 			<img
-				src={theme_mode == 'dark' ? 'dark.svg' : 'light.svg'}
+				src={theme_mode == 'dark' ? 'dark_career-catalysts_v2.svg' : 'light_career-catalysts_v2.svg'}
 				id="logo"
 				alt="Logo"
-				class="w-52 h-auto"
+				class="w-auto h-16"
 			/>
 		</a>
 
