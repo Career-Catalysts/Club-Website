@@ -1,5 +1,5 @@
 <script>
-	import { toggleMode, mode } from 'mode-watcher'
+	import { toggleMode, mode, setMode } from 'mode-watcher'
 	import { Button } from '$lib/components/ui/button'
 	import '../app.postcss'
 	// import { Sun, Moon, Instagram } from 'lucide-svelte'
