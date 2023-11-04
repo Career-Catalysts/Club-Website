@@ -18,7 +18,7 @@
 	mode.subscribe((m) => (theme_mode = m))
 </script>
 
-<header class="flex align-center justify-center p-6">
+<header class="flex items-center justify-center p-6 bg-transparent h-20">
 	<nav class="flex justify-between items-center">
 		<!-- left section -->
 		<a href="/">
@@ -27,7 +27,7 @@
 				src={theme_mode == 'dark' ? 'dark.svg' : 'light.svg'}
 				id="logo"
 				alt="Logo"
-				class="w-52 h-auto"
+				class="w-auto h-14"
 			/>
 		</a>
 

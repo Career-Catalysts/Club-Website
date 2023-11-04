@@ -8,7 +8,7 @@
 
 <Header />
 
-<main class='flex justify-center items-center text-l'>
+<main class='flex justify-center items-center bg-yellow-200 h-[70vh] pb-11'>
 	<slot />
 
 	<!-- <Footer /> -->
