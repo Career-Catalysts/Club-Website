@@ -24,7 +24,7 @@
 	</aside>
 
 	<!-- right section: visual -->
-	<aside class="w-[40%] min-w-[25rem] pt-16">
+	<aside id='visual' class="w-[40%] min-w-[25rem] pt-16">
 		<section>
 			<!-- <Button on:click={pauseAnimation}>Pause</Button>
         <Button on:click={resumeAnimation}>Resume</Button> -->
@@ -111,6 +111,18 @@
 		}
 		100% {
 			stroke-dashoffset: 0;
+		}
+	}
+
+	@media (width < 900px) {
+		h1 {
+			font-size: 3.5rem;
+		}
+		h2 {
+			font-size: 2.7rem;
+		}
+		#visual {
+			min-width: 20rem;
 		}
 	}
 </style>
