@@ -14,11 +14,11 @@
 		Calendar,
 	} from 'radix-icons-svelte'
 
-	let theme_mode = ''
+	let theme_mode = 'dark'
 	mode.subscribe((m) => (theme_mode = m))
 </script>
 
-<header class="flex items-center justify-center p-6 border-green-500 box-border border-b-4 h-24">
+<header class="flex items-center justify-center p-6 border-green-500 box-border border-b-4 h-[10vh]">
 	<nav class="flex justify-between items-center">
 		<!-- left section -->
 		<a href="/">
