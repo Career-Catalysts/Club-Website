@@ -6,7 +6,7 @@
 <!-- <div class="max-w-6xl"> -->
 <div class="wrapper grid grid-cols-3 gap-4">
   <OfficerTag
-    name="Surendra J."
+    name="surendra J."
     title="Director of Research"
     year="1st Year"
     major="Computer Engineering"
