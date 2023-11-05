@@ -5,7 +5,7 @@
 
 <!-- first page -->
 <div
-	class="flex overflow-y-hidden items-center justify-center min-w-[50rem] w-[80%] max-w-[77vw] h-[75vh] mb-[30vh]"
+	class="flex overflow-y-hidden items-center justify-center min-w-[50rem] w-[80%] max-w-[77vw] h-[75vh] mb-[25vh]"
 >
 	<!-- left section: tagline -->
 	<aside class="flex pl-24">

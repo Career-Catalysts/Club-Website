@@ -4,6 +4,7 @@
 		- Kenric
 			- [ ] stuff
 			- make breakpoint modification at 900px
+			- auto-hidden navbar with frosted & semi-transparent background
 		- Surendra
 			- [ ] stuff 
 - [ ] implementation into actual svelte
