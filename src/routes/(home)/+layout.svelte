@@ -1,3 +1,3 @@
-<main class=" justify-items-center">
+<main class="  self-center">
     <slot></slot>
 </main>

@@ -4,15 +4,26 @@
 </script>
 
 <!-- <div class="max-w-6xl"> -->
-<div class="justify-left">
+<div class="grid grid-cols-3 gap-4">
+  <OfficerTag
+    name="Surendra Jammishetti"
+    title="Director of Research"
+    year="1st Year"
+    major="Computer Engineering"
+    text_size={1}
+  />
 
-    <OfficerTag
-      name="Surendra Jammishetti"
-	  title="Director of Research"
-	  year="1st Year"
-	  major="Computer Engineering"
-    />
+  <gap />
 
+  <OfficerTag />
+
+  <gap />
+
+  <OfficerTag />
+  <gap />
+  <OfficerTag />
+  <gap />
+  <OfficerTag />
 </div>
 
 <style>

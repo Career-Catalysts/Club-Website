@@ -7,8 +7,8 @@
   let className: $$Props["class"] = undefined;
   export let delayMs: $$Props["delayMs"] = undefined;
   //TODO figure out a way to make this scalable
-  export let height: string = "h-[10rem]"; // Default height
-  export let width: string = "w-[10rem]"; // Default width
+  export let height: string = "h-[6rem]"; // Default height
+  export let width: string = "w-[6rem]"; // Default width
   export { className as class };
 </script>
 
