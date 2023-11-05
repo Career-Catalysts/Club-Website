@@ -10,20 +10,40 @@
     title="Director of Research"
     year="1st Year"
     major="Computer Engineering"
-    text_size={1}
+    text_size={2}
   />
 
   <gap />
 
-  <OfficerTag />
+  <OfficerTag 
+    name="Kenric Tee" 
+    title="Vice President" 
+    year="1st Year"
+    major="Computer Science" 
+  />
+
 
   <gap />
 
-  <OfficerTag />
+  <OfficerTag 
+    name="Sharvin ..." 
+    title="President" 
+    year="1st Year" 
+  />
   <gap />
-  <OfficerTag />
+  <OfficerTag 
+    name="Albert Felix" 
+    title="Treasurer" 
+    year="1st Year" 
+    major="Computer Engineering"
+  />
   <gap />
-  <OfficerTag />
+  <OfficerTag
+    name="Luis ..."
+    title="Public Relations Manager"
+    year="1st Year"
+    major="Computer Science"
+  />
 </div>
 
 <style>
