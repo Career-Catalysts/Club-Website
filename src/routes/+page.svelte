@@ -26,8 +26,7 @@
 	<!-- right section: visual -->
 	<aside id='visual' class="w-[40%] min-w-[25rem] pt-16">
 		<section>
-			<!-- <Button on:click={pauseAnimation}>Pause</Button>
-        <Button on:click={resumeAnimation}>Resume</Button> -->
+
 			<svg viewBox="0 0 500 500">
 				<path
 					class="outliers"

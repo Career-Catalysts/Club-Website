@@ -12,7 +12,7 @@
 
 <Header />
 
-<main class="flex flex-col {`${theme_mode == 'light' ? 'sclight' : 'scdark'}`} ">
+<main class="flex flex-col {`${theme_mode == 'light' ? 'sclight' : 'scdark'}`} justify-center items-center">
 	<slot />
 
 	<!-- <Footer /> -->

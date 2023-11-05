@@ -20,7 +20,7 @@
       <Avatar.Fallback>CN</Avatar.Fallback>
     </Avatar.Root>
     <h1 class="text-{text_size}xl font-semibold mt-2">{name}</h1>
-    <h1>{title}</h1>
+    <h1 class=" text-sm">{title}</h1>
   </div>
 
   <div class=" flex-grow text-center p-4">

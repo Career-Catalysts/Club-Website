@@ -1,3 +1,3 @@
-<main class="  self-center">
+<main class="">
     <slot></slot>
 </main>
