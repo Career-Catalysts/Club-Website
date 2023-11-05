@@ -4,26 +4,22 @@
 	import Header from './Header.svelte'
   import { mode } from 'mode-watcher'
 
-	let theme_mode = ''
+	let theme_mode = 'dark'
 	mode.subscribe((m) => (theme_mode = m))
-  console.log(theme_mode);
-  $: theme_mode_class = (theme_mode === 'dark' ? 'screen-dark' : 'screen-light');
-  
-  
 </script>
 
 <ModeWatcher />
 
 <Header />
 
-<main class="flex justify-center items-center h-[70vh] pb-11" class:theme_mode_class>
+<main class="flex flex-col {`${theme_mode == 'light' ? 'sclight' : 'scdark'}`} justify-center items-center">
 	<slot />
 
 	<!-- <Footer /> -->
 </main>
 
 <style>
-	.dark {
+	.scdark {
 		margin: 0 auto;
 		width: vh;
 		height: vw;
@@ -35,7 +31,7 @@
 			rgba(0, 0, 0, 1) 52%
 		);
 	}
-	.light {
+	.sclight {
 		margin: 0 auto;
 		width: vh;
 		height: vw;
