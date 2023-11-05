@@ -2,7 +2,7 @@
 	import * as Card from '$lib/components/ui/card'
 </script>
 
-<Card.Root class="max-w-2xl">
+<Card.Root class="max-w-2xl w-full h-full">
 	<Card.Header>
 		<Card.Title>Card Title</Card.Title>
 		<Card.Description>Card Description</Card.Description>

@@ -5,10 +5,10 @@
 
 <!-- first page -->
 <div
-	class="flex items-center justify-center min-w-[40rem] w-[80%] max-w-[77vw] h-[75vh] mb-[15vh]"
+	class="flex overflow-y-hidden items-center justify-center min-w-[50rem] w-[80%] max-w-[77vw] h-[75vh] mb-[30vh]"
 >
 	<!-- left section: tagline -->
-	<aside class="flex pl-14">
+	<aside class="flex pl-24">
 		<section class="flex flex-col justify-center">
 			<h1 class="mb-7 max-w-2xl text-7xl font-medium">
 				Turning Interviews Into <u
@@ -24,10 +24,10 @@
 	</aside>
 
 	<!-- right section: visual -->
-	<aside id='visual' class="w-[40%] min-w-[25rem] pt-16">
+	<aside id="visual" class="w-[40%] min-w-[25rem] pt-16">
 		<section>
 			<!-- <Button on:click={pauseAnimation}>Pause</Button>
-        <Button on:click={resumeAnimation}>Resume</Button> -->
+				<Button on:click={resumeAnimation}>Resume</Button> -->
 			<svg viewBox="0 0 500 500">
 				<path
 					class="outliers"
@@ -88,8 +88,12 @@
 </div>
 
 <!-- second page; scroll down to see -->
-<div class="min-w-[50rem] w-[100vw] max-w-[77vw] h-[100vh] px-11">
-</div>
+<!-- <div class="min-w-[40rem] w-[80%] max-w-[77vw] h-[100vh] px-11"> -->
+<!-- <div class="overflow-hidden">
+	<h1 class="text-center p-5 max-w-2xl text-4xl font-medium">
+		Discover a new horizon. Starting today.
+	</h1>
+</div> -->
 
 <style>
 	path {

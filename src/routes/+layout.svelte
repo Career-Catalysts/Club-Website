@@ -2,7 +2,7 @@
 	import '../app.postcss'
 	import { ModeWatcher } from 'mode-watcher'
 	import Header from './Header.svelte'
-  import { mode } from 'mode-watcher'
+	import { mode } from 'mode-watcher'
 
 	let theme_mode = 'dark'
 	mode.subscribe((m) => (theme_mode = m))
@@ -10,9 +10,14 @@
 
 <ModeWatcher />
 
-<Header />
-
-<main class="flex flex-col {`${theme_mode == 'light' ? 'sclight' : 'scdark'}`} justify-center items-center">
+<main
+	class="overflow-hidden fixed w-[100vw] h-[100vh] flex flex-col {`${
+		theme_mode == 'light' ? 'sclight' : 'scdark'
+	}`} justify-center items-center"
+>
+	<div class="relative h-[10vh] w-[100vw] bg-transparent">
+			<Header />
+	</div>
 	<slot />
 
 	<!-- <Footer /> -->
