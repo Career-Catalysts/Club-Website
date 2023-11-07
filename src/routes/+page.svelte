@@ -8,7 +8,7 @@
 	class="flex items-center justify-center min-w-[40rem] w-[80%] max-w-[77vw] h-[75vh] mb-[15vh]"
 >
 	<!-- left section: tagline -->
-	<aside class="flex pl-14">
+	<aside class="flex bg-[#0d1320]">
 		<section class="flex flex-col justify-center">
 			<h1 class="mb-7 max-w-2xl text-7xl font-medium">
 				Turning Interviews Into <u
