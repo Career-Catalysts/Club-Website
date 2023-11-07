@@ -8,7 +8,8 @@
 	class="flex items-center justify-center min-w-[40rem] w-[80%] max-w-[77vw] h-[75vh] mb-[15vh]"
 >
 	<!-- left section: tagline -->
-	<aside class="flex bg-[#0d1320]">
+	<aside id='left-section' class="flex bg-[#0d1320]">
+	<!-- <aside id='left-section' class="flex"> -->
 		<section class="flex flex-col justify-center">
 			<h1 class="mb-7 max-w-2xl text-7xl font-medium">
 				Turning Interviews Into <u
@@ -100,6 +101,15 @@
 
 		animation: dash 5s ease-in-out infinite alternate;
 	}
+
+	/* #left-section {
+		background: radial-gradient(
+			circle at 42% 5%,
+			rgba(123, 123, 123, 1) 0%,
+			rgba(50, 50, 50, 1) 26%,
+			rgba(0, 0, 0, 1) 52%
+		);
+	} */
 
 	@keyframes dash {
 		0% {
