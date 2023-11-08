@@ -1,11 +1,7 @@
 <script>
-	import { toggleMode, mode, setMode } from 'mode-watcher'
-	import { Button } from '$lib/components/ui/button'
 	import '../app.postcss'
 	// import { Sun, Moon, Instagram } from 'lucide-svelte'
 	import {
-		Sun,
-		Moon,
 		DiscordLogo,
 		InstagramLogo,
 		GithubLogo,
@@ -13,30 +9,20 @@
 		ArrowRight,
 		Calendar,
 		HamburgerMenu,
+		Link2,
 	} from 'radix-icons-svelte'
-
-	let theme_mode = 'dark'
-	mode.subscribe((m) => (theme_mode = m))
-
-	const toggleMenu = () => {
-		console.log('toggle menu');
-	}
 </script>
 
 <!-- <header
 	class="flex items-center justify-center p-6 border-green-500 box-border border-b-4 h-[10vh]"
 > -->
-<header
-	class="flex items-center justify-center p-6 h-[10vh]"
->
+<header class="flex items-center justify-center p-6 h-[10vh]">
 	<nav class="flex justify-between items-center">
 		<!-- left section -->
 		<a href="/">
 			<!-- change logo dark/light mode -->
 			<img
-				src={theme_mode == 'dark'
-					? 'dark_career-catalysts_v2.svg'
-					: 'light_career-catalysts_v2.svg'}
+				src="dark_career-catalysts_v2.svg"
 				id="logo"
 				alt="Logo"
 				class="w-auto h-16"
@@ -72,7 +58,7 @@
 					class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
 				/>
 			</a>
-			<a class="icon" href="https://github.com">
+			<a class="icon" href="https://github.com/Career-Catalysts">
 				<GithubLogo
 					class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
 				/>
@@ -82,15 +68,20 @@
 					class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
 				/>
 			</a>
-				<Button on:click={toggleMode} variant="outline" size="icon">
-					<Sun
-						class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
-					/>
-					<Moon
-						class="absolute h-[1.5rem] w-[1.5rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
-					/>
-					<span class="sr-only">Toggle theme</span>
-				</Button>
+			<a class="linktree" href="https://linktr.ee/CareerCatalysts">
+				<Link2
+					class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all"
+				/>
+			</a>
+			<!-- <Button on:click={toggleMode} variant="outline" size="icon">
+				<Sun
+					class="h-[1.5rem] w-[1.5rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
+				/>
+				<Moon
+					class="absolute h-[1.5rem] w-[1.5rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
+				/>
+				<span class="sr-only">Toggle theme</span>
+			</Button> -->
 		</div>
 	</nav>
 </header>

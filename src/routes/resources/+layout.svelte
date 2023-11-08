@@ -1,3 +1,3 @@
 <main class="flex justify-center items-center">
-    <slot></slot>
+	<slot />
 </main>

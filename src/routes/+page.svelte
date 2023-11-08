@@ -5,19 +5,19 @@
 
 <!-- first page -->
 <div
-	class="flex items-center justify-center min-w-[40rem] w-[80%] max-w-[77vw] h-[75vh] mb-[15vh]"
+	class="flex items-center justify-center min-w-[40rem] w-[80%] max-w-[77vw]"
 >
 	<!-- left section: tagline -->
 	<aside id='left-section' class="flex bg-[#0d1320]">
 	<!-- <aside id='left-section' class="flex"> -->
 		<section class="flex flex-col justify-center">
-			<h1 class="mb-7 max-w-2xl text-7xl font-medium">
+			<h1 class="mb-7 max-w-4xl text-8xl font-medium">
 				Turning Interviews Into <u
 					class="decoration-purple-500 decoration-5">Opportunities.</u
 				>
 			</h1>
-			<h2 class="max-w-2xl text-5xl font-semibold">
-				<mark class="px-1 text-inherit dark:bg-purple-500 rounded-sm"
+			<h2 class="max-w-3xl text-6xl font-semibold">
+				<mark class="px-1 text-inherit bg-purple-500 rounded-sm"
 					>Together</mark
 				> We Succeed.
 			</h2>
@@ -73,11 +73,10 @@
 
 				<path
 					d="M143 370c0-11.0457 8.95431-20 20-20h173c11.046 0 20 8.95431 20 20v45c0 11.0457-8.9547 20-20 20h-173c-11.0457 0-20-8.9543-20-20v-200z"
-					fill="#90EE90"
+					fill="rgb(168, 85, 247)"
 				/>
 				<a href="/discover">
-					<!-- <text class="text-xl" x="170" y="400" fill="black">Internships / Jobs</text> -->
-					<text class="text-2xl font-semibold" x="190" y="400" fill="black"
+					<text class="text-2xl font-semibold" x="190" y="400" fill="white"
 						>Learn More</text
 					>
 				</a>
@@ -88,7 +87,7 @@
 </div>
 
 <!-- second page; scroll down to see -->
-<div class="min-w-[50rem] w-[100vw] max-w-[77vw] h-[100vh] px-11">
+<div class="min-w-[50rem] w-[100vw] max-w-[77vw] px-11">
 </div>
 
 <style>
@@ -125,10 +124,10 @@
 
 	@media (width < 900px) {
 		h1 {
-			font-size: 3.5rem;
+			font-size: 4rem;
 		}
 		h2 {
-			font-size: 2.7rem;
+			font-size: 3rem;
 		}
 		#visual {
 			min-width: 20rem;
